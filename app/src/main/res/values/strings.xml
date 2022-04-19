@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">ЭкоСправочник</string>
-    <string name="plast_one">Пластик номер 1 - ПЭТ бутылки.</string>
+
+
+    <string name="plast_info">Пластик - ............</string>
+    <string name="plast_one">Какая-то инфа про пластик номер 1.</string>
+    <string name="plast_two">Какая-то инфа про пластик номер 2.</string>
+    <string name="plast_three">Какая-то инфа про пластик номер 3.</string>
+    <string name="plast_four">Какая-то инфа про пластик номер 4.</string>
+    <string name="plast_five">Какая-то инфа про пластик номер 5.</string>
+    <string name="plast_six">Какая-то инфа про пластик номер 6.</string>
+    <string name="plast_seven">Какая-то инфа про пластик номер 7.</string>
+    <string name="plast_abc">Какая-то инфа про ABC пластик.</string>
 </resources>
