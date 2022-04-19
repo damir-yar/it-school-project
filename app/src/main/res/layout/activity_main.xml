@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/but_plast"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Пластик" />
+
+            <Button
+                android:id="@+id/but_bat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Батарейки"/>
+
+            <Button
+                android:id="@+id/but_met"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Металл"/>
+
+            <Button
+                android:id="@+id/but_int"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Интересное"/>
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left">
+
+            <Button
+                android:id="@+id/but_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Карта пунктов приёма вторсырья"/>
+
+            <Button
+                android:id="@+id/but_bat_niz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как сдать батарейки"/>
+
+            <Button
+                android:id="@+id/but_plast_niz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как сдать пластик"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
