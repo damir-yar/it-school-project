@@ -18,61 +18,69 @@
             android:layout_height="100dp"
             android:padding="10dp">
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_one"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="1" />
+                android:background="@drawable/first"
+                android:backgroundTint="#FF2DC830" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_two"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="2"/>
+                android:backgroundTint="#FF2DC830"
+                android:background="@drawable/second" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_three"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="3"/>
+                android:backgroundTint="#DC1212"
+                android:background="@drawable/thrid" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_four"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="4"/>
+                android:backgroundTint="#FFCC9B0C"
+                android:background="@drawable/fird" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_five"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="5"/>
+                android:backgroundTint="#FFCC9B0C"
+                android:background="@drawable/fift" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_six"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="6"/>
+                android:backgroundTint="#DC1212"
+                android:background="@drawable/six" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_seven"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="7"/>
+                android:backgroundTint="#DC1212"
+                android:background="@drawable/seven" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/but_plast_info_abc"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="ABC"/>
+                android:backgroundTint="#FF2DC830"
+                android:background="@drawable/abc" />
 
 
 
@@ -93,7 +101,17 @@
             <TextView
                 android:id="@+id/text_info"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/text_info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"/>
 
 
         </LinearLayout>

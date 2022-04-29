@@ -5,20 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class PlastInfoActivity extends AppCompatActivity {
 
-    private Button plastOne;
-    private Button plastTwo;
-    private Button plastThree;
-    private Button plastFour;
-    private Button plastFive;
-    private Button plastSix;
-    private Button plastSeven;
-    private Button plastABC;
+    private ImageButton plastOne;
+    private ImageButton plastTwo;
+    private ImageButton plastThree;
+    private ImageButton plastFour;
+    private ImageButton plastFive;
+    private ImageButton plastSix;
+    private ImageButton plastSeven;
+    private ImageButton plastABC;
 
     private TextView info;
+    private TextView info2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class PlastInfoActivity extends AppCompatActivity {
         plastABC = findViewById(R.id.but_plast_info_abc);
 
         info = findViewById(R.id.text_info);
+        info2 = findViewById(R.id.text_info2);
 
         info.setText(R.string.plast_info);
         getSupportActionBar().setTitle("Пластик");
@@ -42,49 +45,65 @@ public class PlastInfoActivity extends AppCompatActivity {
         plastOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_one);
+                info.setTextColor(getResources().getColor(R.color.purple_500));
+                info.setText(R.string.plast_one1);
+                info2.setText(R.string.plast_one2);
             }
         });
         plastTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_two);
+                info.setTextColor(getResources().getColor(R.color.purple_500));
+                info.setText(R.string.plast_two1);
+                info2.setText(R.string.plast_two2);
             }
         });
         plastThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_three);
+                info.setTextColor(getResources().getColor(R.color.red));
+                info.setText(R.string.plast_three1);
+                info2.setText(R.string.plast_three2);
             }
         });
         plastFour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_four);
+                info.setTextColor(getResources().getColor(R.color.yellow));
+                info.setText(R.string.plast_four1);
+                info2.setText(R.string.plast_four2);
             }
         });
         plastFive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_five);
+                info.setTextColor(getResources().getColor(R.color.yellow));
+                info.setText(R.string.plast_five1);
+                info2.setText(R.string.plast_five2);
             }
         });
         plastSix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_six);
+                info.setTextColor(getResources().getColor(R.color.red));
+                info.setText(R.string.plast_six1);
+                info2.setText(R.string.plast_six2);
             }
         });
         plastSeven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_seven);
+                info.setTextColor(getResources().getColor(R.color.red));
+                info.setText(R.string.plast_seven1);
+                info2.setText(R.string.plast_seven2);
             }
         });
         plastABC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setText(R.string.plast_abc);
+                info.setTextColor(getResources().getColor(R.color.purple_500));
+                info.setText(R.string.plast_abs1);
+                info2.setText(R.string.plast_abs2);
             }
         });
     }
