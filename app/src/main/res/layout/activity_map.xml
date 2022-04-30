@@ -7,10 +7,8 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
+    <WebView
+        android:id="@+id/web"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="172dp" />
+        android:layout_height="match_parent" />
 </LinearLayout>
