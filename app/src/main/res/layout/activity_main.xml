@@ -30,20 +30,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                android:text="Батарейки"/>
+                android:text="Металл"
+                android:backgroundTint="#FFC1D6DC"
+                app:iconTint="#2DC830" />
 
             <Button
                 android:id="@+id/but_met"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                android:text="Металл"/>
+                android:text="Макулатура"/>
 
             <Button
                 android:id="@+id/but_int"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
+                android:backgroundTint="#FFC1D6DC"
                 android:text="Интересное"/>
 
 
@@ -73,7 +76,8 @@
                 android:id="@+id/but_bat_niz"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Как сдать батарейки"/>
+                android:text="Как сдать батарейки"
+                android:backgroundTint="#FFC1D6DC"/>
 
             <Button
                 android:id="@+id/but_plast_niz"

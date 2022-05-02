@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class PlastInfoActivity extends AppCompatActivity {
@@ -17,10 +18,12 @@ public class PlastInfoActivity extends AppCompatActivity {
     private ImageButton plastFive;
     private ImageButton plastSix;
     private ImageButton plastSeven;
-    private ImageButton plastABC;
+    private ImageButton plastABS;
 
     private TextView info;
     private TextView info2;
+
+    private ImageView image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,76 +37,60 @@ public class PlastInfoActivity extends AppCompatActivity {
         plastFive = findViewById(R.id.but_plast_info_five);
         plastSix = findViewById(R.id.but_plast_info_six);
         plastSeven = findViewById(R.id.but_plast_info_seven);
-        plastABC = findViewById(R.id.but_plast_info_abc);
+        plastABS = findViewById(R.id.but_plast_info_abs);
 
-        info = findViewById(R.id.text_info);
-        info2 = findViewById(R.id.text_info2);
 
-        info.setText(R.string.plast_info);
-        getSupportActionBar().setTitle("Пластик");
+
+        image = findViewById(R.id.im_plast);
+
+        setTitle("Пластик");
 
         plastOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.purple_500));
-                info.setText(R.string.plast_one1);
-                info2.setText(R.string.plast_one2);
+                image.setImageResource(R.drawable.p1);
             }
         });
         plastTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.purple_500));
-                info.setText(R.string.plast_two1);
-                info2.setText(R.string.plast_two2);
+                image.setImageResource(R.drawable.p2);
             }
         });
         plastThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.red));
-                info.setText(R.string.plast_three1);
-                info2.setText(R.string.plast_three2);
+                image.setImageResource(R.drawable.p3);
             }
         });
         plastFour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.yellow));
-                info.setText(R.string.plast_four1);
-                info2.setText(R.string.plast_four2);
+                image.setImageResource(R.drawable.p4);
             }
         });
         plastFive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.yellow));
-                info.setText(R.string.plast_five1);
-                info2.setText(R.string.plast_five2);
+                image.setImageResource(R.drawable.p5);
             }
         });
         plastSix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.red));
-                info.setText(R.string.plast_six1);
-                info2.setText(R.string.plast_six2);
+                image.setImageResource(R.drawable.p6);
             }
         });
         plastSeven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.red));
-                info.setText(R.string.plast_seven1);
-                info2.setText(R.string.plast_seven2);
+                image.setImageResource(R.drawable.p7);
             }
         });
-        plastABC.setOnClickListener(new View.OnClickListener() {
+        plastABS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                info.setTextColor(getResources().getColor(R.color.purple_500));
-                info.setText(R.string.plast_abs1);
-                info2.setText(R.string.plast_abs2);
+                image.setImageResource(R.drawable.p9);
             }
         });
     }

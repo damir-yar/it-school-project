@@ -24,7 +24,7 @@
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/first"
-                android:backgroundTint="#FF2DC830" />
+                android:backgroundTint="#13C830" />
 
             <ImageButton
                 android:id="@+id/but_plast_info_two"
@@ -75,11 +75,11 @@
                 android:background="@drawable/seven" />
 
             <ImageButton
-                android:id="@+id/but_plast_info_abc"
+                android:id="@+id/but_plast_info_abs"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:backgroundTint="#FF2DC830"
+                android:backgroundTint="#FFCC9B0C"
                 android:background="@drawable/abc" />
 
 
@@ -94,25 +94,17 @@
 
         <LinearLayout
             android:layout_width="370dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
             android:gravity="left">
 
-            <TextView
-                android:id="@+id/text_info"
+            <ImageView
+                android:id="@+id/im_plast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"></ImageView>
 
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:typeface="monospace" />
-
-            <TextView
-                android:id="@+id/text_info2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="15dp"/>
 
 
         </LinearLayout>
