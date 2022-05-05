@@ -35,7 +35,7 @@
                 app:iconTint="#2DC830" />
 
             <Button
-                android:id="@+id/but_met"
+                android:id="@+id/but_mak"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
@@ -73,17 +73,17 @@
                 android:text="Карта пунктов приёма вторсырья"/>
 
             <Button
-                android:id="@+id/but_bat_niz"
+                android:id="@+id/but_chisto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Как сдать батарейки"
+                android:text="#чистопоудмуртски"
                 android:backgroundTint="#FFC1D6DC"/>
 
             <Button
-                android:id="@+id/but_plast_niz"
+                android:id="@+id/but_ecor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Как сдать пластик"/>
+                android:text="Экор"/>
 
 
         </LinearLayout>

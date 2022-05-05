@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Itschoolproject">
         <activity
+            android:name=".EcorInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChistoInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MakInfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MetInfoActivity"
             android:exported="false" />
         <activity
