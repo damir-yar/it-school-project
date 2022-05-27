@@ -18,6 +18,13 @@
             android:layout_height="100dp"
             android:padding="10dp">
 
+            <Button
+                android:id="@+id/but_plast_info_map"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:text="карта" />
+
             <ImageButton
                 android:id="@+id/but_plast_info_one"
                 android:layout_width="75dp"
@@ -104,6 +111,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"></ImageView>
+
+            <WebView
+                android:id="@+id/plast_web"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"></WebView>
 
 
         </LinearLayout>

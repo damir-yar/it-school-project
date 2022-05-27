@@ -49,15 +49,11 @@ public class MapActivity extends AppCompatActivity {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             if (Uri.parse(url).getHost().equals("www.example.com")) {
-                // Designate Urls that you want to load in WebView still.
                 return false;
             }
-
-            // Otherwise, give the default behavior (open in browser)
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
             return true;
         }
-
-
-}}
+    }
+}

@@ -2,7 +2,7 @@
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#47ba4a</color> <!--  Цвет кнопок и hide  -->
-    <color name="purple_700">#FFC1D6DC</color> <!--  цвет строки уведомлений  -->
+    <color name="purple_700">#FFFFFF</color> <!--  цвет строки уведомлений  -->
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>

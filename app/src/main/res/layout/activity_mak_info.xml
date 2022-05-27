@@ -19,26 +19,41 @@
             android:padding="10dp">
 
             <Button
+                android:id="@+id/but_mak_info_map"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:text="карта" />
+
+            <Button
+                android:id="@+id/but_mak_info_not"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:text="Не принимается" />
+
+            <Button
                 android:id="@+id/but_mak_info_a"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="А" />
+                android:text="тип А" />
 
             <Button
                 android:id="@+id/but_mak_info_b"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:backgroundTint="#FFC1D6DC"
-                android:text="Б" />
+                android:text="тип Б" />
 
             <Button
                 android:id="@+id/but_mak_info_v"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:text="В" />
+                android:text="тип В" />
+
+
 
 
         </LinearLayout>
@@ -61,6 +76,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"></ImageView>
+
+            <WebView
+                android:id="@+id/mak_web"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"></WebView>
 
 
         </LinearLayout>

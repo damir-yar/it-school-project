@@ -22,7 +22,6 @@
                 android:id="@+id/but_plast"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
                 android:text="Пластик" />
 
             <Button
@@ -31,7 +30,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Металл"
-                android:backgroundTint="#FFC1D6DC"
                 app:iconTint="#2DC830" />
 
             <Button
@@ -46,7 +44,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                android:backgroundTint="#FFC1D6DC"
                 android:text="Интересное"/>
 
 
@@ -76,8 +73,7 @@
                 android:id="@+id/but_chisto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="#чистопоудмуртски"
-                android:backgroundTint="#FFC1D6DC"/>
+                android:text="#чистопоудмуртски" />
 
             <Button
                 android:id="@+id/but_ecor"

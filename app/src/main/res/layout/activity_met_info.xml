@@ -19,6 +19,13 @@
             android:padding="10dp">
 
             <Button
+                android:id="@+id/but_met_info_map"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:text="карта" />
+
+            <Button
                 android:id="@+id/but_met_info_al"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
@@ -30,7 +37,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:backgroundTint="#FFC1D6DC"
                 android:text="сталь" />
 
             <Button
@@ -45,7 +51,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginLeft="10dp"
-                android:backgroundTint="#FFC1D6DC"
                 android:text="драгметаллы" />
 
             <Button
@@ -75,6 +80,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"></ImageView>
+
+            <WebView
+                android:id="@+id/met_web"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"></WebView>
 
 
         </LinearLayout>
