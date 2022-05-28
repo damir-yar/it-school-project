@@ -25,7 +25,7 @@
                 android:text="Пластик" />
 
             <Button
-                android:id="@+id/but_bat"
+                android:id="@+id/but_met"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
@@ -67,6 +67,7 @@
                 android:id="@+id/but_map"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="13dp"
                 android:text="Карта пунктов приёма вторсырья"/>
 
             <Button
@@ -76,10 +77,31 @@
                 android:text="#чистопоудмуртски" />
 
             <Button
+                android:id="@+id/but_chisto_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="Карта контейнеров #чистопоудмуртски" />
+
+            <Button
                 android:id="@+id/but_ecor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Экор"/>
+
+            <Button
+                android:id="@+id/but_bat_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Карта контейнеров Экор"/>
+
+            <Button
+                android:id="@+id/but_bat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как сдать батарейки?"/>
+
+
 
 
         </LinearLayout>

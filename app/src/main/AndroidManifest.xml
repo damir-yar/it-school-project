@@ -12,6 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Itschoolproject">
         <activity
+            android:name=".Splash"
+            android:theme="@style/Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChistoMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BatMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BatActivity"
+            android:exported="false" />
+        <activity
             android:name=".EcorInfoActivity"
             android:exported="false" />
         <activity
@@ -31,12 +53,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
