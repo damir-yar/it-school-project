@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button bat;
     private Button batMap;
     private Button chistoMap;
+    private Button plast_n;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         bat = findViewById(R.id.but_bat);
         batMap = findViewById(R.id.but_bat_map);
         chistoMap = findViewById(R.id.but_chisto_map);
+        plast_n = findViewById(R.id.but_plast_n);
 
         plast.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,6 +111,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ChistoMapActivity.class);
+                startActivity(intent);
+            }
+        });
+        plast_n.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PlastActivity.class);
                 startActivity(intent);
             }
         });
