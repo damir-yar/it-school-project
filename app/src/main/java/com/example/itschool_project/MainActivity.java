@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button batMap;
     private Button chistoMap;
     private Button plast_n;
+    private Button about;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         batMap = findViewById(R.id.but_bat_map);
         chistoMap = findViewById(R.id.but_chisto_map);
         plast_n = findViewById(R.id.but_plast_n);
+        about = findViewById(R.id.but_about);
 
         plast.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         batMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, BatMapActivity.class);
+                Intent intent = new Intent(MainActivity.this, EcorMapActivity.class);
                 startActivity(intent);
             }
         });
@@ -118,6 +119,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PlastActivity.class);
+                startActivity(intent);
+            }
+        });
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(intent);
             }
         });

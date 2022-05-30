@@ -107,6 +107,12 @@
                 android:layout_height="wrap_content"
                 android:text="Как сдать пластик?"/>
 
+            <Button
+                android:id="@+id/but_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="О проекте"/>
+
 
         </LinearLayout>
     </ScrollView>

@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <WebView
-        android:id="@+id/web_bat"
+        android:id="@+id/web_ecor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
@@ -21,8 +21,8 @@
         android:layout_height="60dp"
 
         android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="@+id/web_bat"
-        app:layout_constraintEnd_toEndOf="@+id/web_bat"
+        app:layout_constraintBottom_toBottomOf="@+id/web_ecor"
+        app:layout_constraintEnd_toEndOf="@+id/web_ecor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

@@ -28,7 +28,7 @@ public class MapActivity extends AppCompatActivity {
 
         progress =findViewById(R.id.progressBar);
 
-        setTitle("Карта Экор");
+        setTitle("Карта");
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

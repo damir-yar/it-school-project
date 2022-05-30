@@ -11,7 +11,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
-public class BatMapActivity extends AppCompatActivity {
+public class EcorMapActivity extends AppCompatActivity {
 
     private WebView web;
 
@@ -20,11 +20,11 @@ public class BatMapActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map);
+        setContentView(R.layout.activity_ecor_map);
 
         progress =findViewById(R.id.progressBar);
 
-        setTitle("Карта");
+        setTitle("Карта Экор");
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -34,7 +34,7 @@ public class BatMapActivity extends AppCompatActivity {
         }, 3000);
 
 
-        WebView web = (WebView) findViewById(R.id.web);
+        WebView web = (WebView) findViewById(R.id.web_ecor);
         web.setWebViewClient(new WebViewClient());
         web.getSettings().setJavaScriptEnabled(true);
         web.getSettings().setDomStorageEnabled(true);
